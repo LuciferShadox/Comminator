@@ -13,6 +13,7 @@ git init
 N=365
 date=$(date +%s)
 
+#generate fake contribution
 echo "Generating fake contributions"
 for i in $(seq $N -1 0)
     do
